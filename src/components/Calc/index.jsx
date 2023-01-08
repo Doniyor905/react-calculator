@@ -52,7 +52,7 @@ function Calc() {
                     <div className={classes.calc__buttons_item}>
                         <button onClick={clear} className={classes.clear}>CLEAR</button>
                         <button onClick={porcentagem} className={classes.foiz}>%</button>
-                        <button onClick={operatorHandler} className={classes.sign}>/</button>
+                        <button onClick={operatorHandler} className={classes.sign} value={"/"}>/</button>
                     </div>
                     <div className={classes.calc__buttons_item}>
                         <button onClick={inputNum} className={classes.number} value={7}>7</button>
